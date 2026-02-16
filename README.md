@@ -7,6 +7,9 @@ This repository is focused on format compatibility and reproducibility:
 - Quantization metadata is written to `_quantization_metadata`.
 - A verification script validates the output format.
 
+## Hugging Face Model
+https://huggingface.co/ingtellect/qwen-image-2512-fp8-scaled-comfyui
+
 ## Scope
 - Target use case: Qwen-Image BF16 checkpoint conversion.
 - This is not positioned as a generic converter for all model families.
@@ -75,3 +78,4 @@ For public release, include:
 - ComfyUI version
 - checkpoint names
 - verification output
+
